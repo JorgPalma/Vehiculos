@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.consulta, .agregar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.consulta-buscador {
+    width: 100%;
+    padding: 10px;
+}
+
+.agregar-container{
+    width: 100%;
+    padding: 10px;
+}
+
+.agregar-boton {
+    background: #14A44D;
+    color: white;
+    border-radius: 25px;
+    height: 50px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.listar-boton {
+    background: #3B71CA;
+    color: white;
+    border-radius: 25px;
+    height: 50px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.agregar-boton:hover, .listar-boton:hover {
+    outline: 2px solid black;
+    color: white;
+}
+
+
+.consulta-buscador-input {
+    outline: none;
+    width: 80%;
+    height: 50px;
+    border: none;
+    border: #9FA6B2 solid 2px;
+    border-radius: 25px 0 0 25px;
+    padding: 5px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.consulta-buscador-input:focus {
+    border: #3B71CA solid 2px;
+}
+
+.consulta-buscador-boton {
+    width: 15%;
+    background: #3B71CA;
+    color: white;
+    border-radius: 0 25px 25px 0;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.detalle, .lista {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.card-header{
+    text-align: center;
+    height: 50px;
+} 
+
+.card-body {
+    text-align: center;
+    height: 70px;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+.formulario {
+    width: 80%;
+}
+
+.formulario div {
+    width: 45%;  
+}
+
+.vehiculo-form-field {
+    border: none;
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+    border: #9FA6B2 2px solid;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.vehiculo-form-field:hover {
+    outline: none;
+    border: 2px solid #3B71CA;
+}
+
+.vehiculo-form-field:focus {
+    outline: none;
+    border: 2px solid #3B71CA;
+}
