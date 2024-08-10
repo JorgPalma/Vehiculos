@@ -16,9 +16,12 @@ class VehiculoViewset(viewsets.ModelViewSet):
         vehicle = Vehiculo.objects.all()
 
         plate = self.request.GET.get('patente')
+        vin = self.request.GET.get('vin')
 
         if plate:
             vehicle = vehicle.filter(patente__contains=plate)
+        elif vin :
+            vehicle = vehicle.filter(vin__contains=vin)
         
         return vehicle
 
